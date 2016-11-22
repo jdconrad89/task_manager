@@ -6,4 +6,5 @@ database.execute("CREATE TABLE tasks (id INTEGER PRIMARY KEY AUTOINCREMENT,
                                       description VARCHAR(64)
                                       );"
                 )
+
 puts "creating tasks table for development"

@@ -2,8 +2,9 @@ require 'sqlite3'
 require_relative '../models/task.rb'
 
 class Task
-  attr_reader :title, :description, :id
-
+  attr_reader :title,
+              :description,
+              :id
   def initialize(task_params)
     @description = task_params["description"]
     @title = task_params["title"]
